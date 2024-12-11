@@ -5,8 +5,8 @@ Please provide a brief description of the changes made and their implications.
 
 ## Changes Made
 <!-- List key changes made in this PR -->
-- Change 1: Description
-- Change 2: Description
+- Description
+- Description
 
 
 ## Checklist
