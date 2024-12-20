@@ -28,4 +28,4 @@ jobs:
             style
             test
             chore
-          subjectPattern: ^(?:DEV-\d+(?:, DEV-\d+)*)?\s*.+$ # This allows PR titles to be prefixed with one or more DEV-<number>
+          subjectPattern: ^(?:DEV-\d+(?:, DEV-\d+)*\s-\s)?(?!.*DEV-)(.+?)$ # Example: DEV-1234, DEV-1235 - Add new feature
