@@ -1,4 +1,8 @@
 <!-- Give your PR a title in the format of "<type>: DEV-XXX - <Feature Name>" -->
+<!-- Examples: -->
+<!-- "fix: DEV-1234 - Fix bug" -->
+<!-- "feat: DEV-1234, DEV-1235 - Add new feature" -->
+<!-- "docs: Update documentation" -->
 
 # Pull Request
 
