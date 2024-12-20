@@ -1,3 +1,5 @@
+<!-- Give your PR a title in the format of "<type>: DEV-XXX - <Feature Name>" -->
+
 # Pull Request
 
 ## Description
