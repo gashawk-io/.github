@@ -1,0 +1,31 @@
+name: Pull Request - Validate PR Title
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+  workflow_call:
+
+jobs:
+  validate_pr_title:
+    name: Validate PR title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            build
+            ci
+            docs
+            feat
+            fix
+            perf
+            refactor
+            style
+            test
+            chore
+          subjectPattern: ^(?:DEV-\d+(?:, DEV-\d+)*)?\s*.+$ # This allows PR titles to be prefixed with one or more DEV-<number>
