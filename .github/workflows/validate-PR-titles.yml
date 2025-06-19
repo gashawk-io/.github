@@ -28,4 +28,4 @@ jobs:
             style
             test
             chore
-          subjectPattern: ^(?:DEV-\d+(?:, DEV-\d+)*\s-\s)?(?!.*DEV-)(.+?)$ # Example: DEV-1234, DEV-1235 - Add new feature
+          subjectPattern: ^(\w{3,4}[-_]*\d+[\s,|]*){1,}([\w\d\s]+)$ # Example: DEV-1234 DEV-1235 Add new feature
